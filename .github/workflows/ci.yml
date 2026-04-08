@@ -23,7 +23,7 @@ jobs:
     - name: Build with Gradle
       run: gradle build 
 
-    - name: Upload Build Artifacts
+    - name: Upload Build Artifacts now
       uses: actions/upload-artifact@v4
       with:
         name: build-artifacts
