@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'Place your GitHub repo URL'
+                git branch: 'master', url: 'https://github.com/yjyun0531/hello-world-java1.git'
             }
         }
 
